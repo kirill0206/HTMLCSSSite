@@ -1,0 +1,22 @@
+
+body {
+    background-color: #f8f8f8;
+}
+
+.main_menu{
+    list-style-type: none;
+}
+
+.main_menu a{
+    font-size: 24px;
+    color: darkblue;
+    text-decoration: none;
+    font-family: cursive;
+}
+
+h1 {
+    font-size: 24px;
+    color: darkblue;
+    text-decoration: none;
+    font-family: cursive;
+}
