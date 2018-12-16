@@ -6,34 +6,36 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!--Верхнейй меню, обязательно на всех страницах-->
-    <h3>Меню:</h3>
-        <ul>
-        <li><a href="index.html">Главная</a></li>
+    <h2 class="main_menu">Меню:</h2>
+        <ul class="main_menu">
+        <li><a href="#">Главная</a></li>
         <li><a href="catalog.html">Каталог</a></li>
-        <li><a href="#">Контакты</a></li>
+        <li><a href="contact.html">Контакты</a></li>
         </ul>
     <hr>
+    
     <h1><strong>Магазин свадебных украшений ручной работы</strong></h1>
     
     <h3>Обратная связь</h3>
     <p>Здесь Вы можете оставить отзыв о нашей компании или написать свои пожелания.</p>
     <!-- Форма обратной связт -->
-    <form action="#">
-        Ваше Имя: <input type="text" placeholder="Ваше Имя"><br>
-        Ваше Фамилия: <input type="text" placeholder="Ваша Фамилия"><br>
+    <form action="#" class="form_contact">
+        Ваше Имя:<br>
+        <input type="text" placeholder="Ваше Имя" class="input_text"><br>
+        Ваше Фамилия:<br>
+        <input type="text" placeholder="Ваша Фамилия" class="input_text"><br>
         Пол: M<input type="radio" name="Pol" checked> Ж <input type="radio" name="Pol"><br>
         
         Ваш отзыв: <br>
-        <textarea rows="5" cols="45" name="text"></textarea><br>
+        <textarea rows="5" name="text" class="input_text"></textarea><br>
 
-        <input type="submit" value="Отправить отзыв"><input type="reset" value="Отмена">
+        <input type="submit" value="Отправить отзыв" style="width: 25%"><input type="reset" value="Отмена" style="width: 25%">
 
     </form>
     
     <h3>Наш адрес:</h3>
-    <p>Санкт-Петербург, Лиговский проспект, 30а<br>ст.м.&nbsp;&quot;Площадь Восстания&quot;</p>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2827.3435610819847!2d30.359726090387166!3d59.92826247040273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1544452349085" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <p style="font-size: 16px">Санкт-Петербург, Лиговский проспект, 30а<br>ст.м.&nbsp;&quot;Площадь Восстания&quot;</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2827.3435610819847!2d30.359726090387166!3d59.92826247040273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1544452349085" width="600" height="450" frameborder="0" style="border:3" allowfullscreen></iframe>
         <hr>
     <p> &copy; 2018 Все права защищены</p>
     
