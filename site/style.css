@@ -4,6 +4,11 @@ body {
     font-family: monospace;
     color:darkslateblue;
 }
+.header {
+    white-space:nowrap;
+    overflow:hidden;
+    width:200px;
+}
 
 /*--Главное меню--*/
 .main_menu {
@@ -14,11 +19,15 @@ body {
 }
 
 /*--Ссылки в главном меню--*/
-.main_menu a {
+.main_menu li a {
     font-size: 24px;
     color: darkblue;
     text-decoration: none;
     font-family: cursive;
+}
+
+.main_menu li a:hover {
+    color: orange;
 }
 
 /*--заголовки в товарах--*/
@@ -39,7 +48,11 @@ body {
 
 /*--Рамка вокруг изображения--*/
 .pre_img{
-     box-shadow: 0 0 10px black;
+    box-shadow: 0 0 10px black;
+}
+
+.pre_img:hover{
+    box-shadow: none;
 }
 
 /*--Подробное описание--*/
@@ -59,8 +72,20 @@ body {
     font-weight: 500;
     text-align: justify;
     font-size: 16px;
-    
+    border: 1px solid green;
+    width: 600px;
+    height: 400 px; 
 }
+.item_peoperties {
+    padding-left: 10px;
+    vertical-align: middle;
+    text-align: justify;
+}
+
+.item_peoperties:first-child{
+    height="40px"
+}
+
 
 /*--Форма обратной связи в контактах--*/
 .form_contact{
@@ -74,10 +99,62 @@ body {
     width: 50%;
 }
 
+.input_text:hover {
+    text-transform: capitalize;
+}
+
+
+.input_e-mail {
+    color: blue;
+    font-size: 16px;
+    font-style: italic;
+    width: 50%;
+}
+
+.input_e-mail:focus {
+    background-color:#00FF00;
+    color:#FF4500;
+}
+
 /*--Каталог--*/
 
 .catalog_items{
     font-style: italic;
     font-weight: 500;
     font-size: 20px
+}
+
+/*--первая буква другого формата--*/
+.short_description:first-letter,.detailed_description:first-letter{
+   font-size: 30px,
+   font-style: bold italic;
+   font-family: sans;
+   color:red;
+}
+
+/*--просто таблица--*/
+.just_table {
+    width: 500px;
+    height: 500 px;    
+}
+.just_table td{
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+.jst1 {
+    background: red;
+}
+.jst2 {
+    background: blue;
+}
+.jst3 {
+    background: #98FB98;
+}
+.jst4 {
+    background: #00FFFF;
+}
+.jst5 {
+    background: #D2691E;
 }
