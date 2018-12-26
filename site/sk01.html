@@ -6,88 +6,71 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header">
-        <div class="logo">
-            <img src="img/Logo.png"
-                alt="LOGO"
-                title="logo"
-                width="150" height="150"/>
-        </div>
-        <div class="main_menu_1">
-            <h2 class="main_menu">Меню:</h2>
-                <ul class="main_menu">
+    <div class="container">
+        <!-- Шапка -->
+        <div class="header">
+            <div class="logo">
+                <img src="img/Logo.png"
+                    alt="LOGO"
+                    title="logo">
+            </div>
+            <div class="main_menu">
+                <ul>
                 <li><a href="index.html">Главная</a></li>
                 <li><a href="catalog.html">Каталог</a></li>
                 <li><a href="contact.html">Контакты</a></li>
                 </ul>
+            </div>
         </div>
-    </div>
-
-    <div class="content_item">
-        <h3 class="item_head">Описание товара</h3>
-        <p><a href="img/Items/sk01_01.jpg" target="_blank"><img src="img/Items/sk01_01.jpg" height=350px alt="Шкатулка1" class="pre_img"></a></p>
-        <p class="short_description">Шкатулка для обручальных колец</p>
-        <h3 class="item_head">Характеристики товара</h3>
-        <table class="item_peoperties">
-            <tr>
-                <td rowspan="5"></td>
-                <td colspan="2">Характеристики товара</td>
-            </tr>
-            <tr>
-                <td>Основной материал</td>
-                <td>Шкатулка из экологичных материалов (массив сосны)</td>
-            </tr>
-            <tr>
-                <td>цвет</td>
-                <td>Несколько цветов на выбор</td>
-            </tr>
-            <tr>
-                <td>размер</td>
-                <td>8/8/6 см</td>
-            </tr>
-            <tr>
-                <td>Испольуемые материалы</td>
-                <td>акриловые краски, акриловый лак на водной основе</td>
-            </tr>
-            <tr>
-                <td>Внимание:</td>
-                <td colspan="2">Можно мочить, но не замачивать<br>Протирать влажной тканью</td>
-            </tr>
-        </table>
-        
         <hr>
-        <h3 class="item_head">Варианты доставки</h3>
-            <p><select name="Доставка" size="1"><option selected="selected" value="">Почта России</option><option value="">ЕМС</option><option  value="">CDEC</option><option value="">Самовывоз</option></select></p>
+
+        <div class="content_item">
+            <h3 class="item_head">Описание товара</h3>
+            <p><a href="img/Items/sk01_01.jpg" target="_blank"><img src="img/Items/sk01_01.jpg" height=350px alt="Шкатулка1" class="pre_img"></a></p>
+            <p class="short_description">Шкатулка для обручальных колец</p>
+            <input type="submit" value="Купить" class="buy_button">
+            <h3 class="item_head">Характеристики товара</h3>
+            <table class="item_properties">
+                <tr>
+                    <td rowspan="5"></td>
+                    <td colspan="2">Характеристики товара</td>
+                </tr>
+                <tr>
+                    <td>Основной материал</td>
+                    <td>Шкатулка из экологичных материалов (массив сосны)</td>
+                </tr>
+                <tr>
+                    <td>цвет</td>
+                    <td>Несколько цветов на выбор</td>
+                </tr>
+                <tr>
+                    <td>размер</td>
+                    <td>8/8/6 см</td>
+                </tr>
+                <tr>
+                    <td>Испольуемые материалы</td>
+                    <td>акриловые краски, акриловый лак на водной основе</td>
+                </tr>
+                <tr>
+                    <td>Внимание:</td>
+                    <td colspan="2">Можно мочить, но не замачивать<br>Протирать влажной тканью</td>
+                </tr>
+            </table>
             
-        <h3 class="item_head">Подробное описание товара</h3>
-        <p class="detailed_description">Шкатулка для обручальных колец ручной работы.</p>
-        <table class="just_table">
-            <tr>
-                <td rowspan="4" class="jst1">Таблица</td>
-                <td colspan="4" class="jst2">Таблица</td>
-            </tr>
-            <tr>
-                <td rowspan="2" class="jst3">Таблица</td>
-                <td colspan="2" class="jst4">Таблица</td>
-                <td rowspan="4" class="jst1">Таблица</td>
-            </tr>
-            <tr>
-                <td class="jst5">вот так вот</td>
-                <td rowspan="2" class="jst3">Таблица</td>
-            </tr>
-            <tr>
-                <td colspan="2" class="jst4">Таблица</td>
-            </tr>
-            <tr>
-                <td colspan="4" class="jst2">Таблица</td>
-            </tr>
-        </table>
+            <hr>
+            <h3 class="item_head">Варианты доставки</h3>
+                <p><select name="Доставка" size="1"><option selected="selected" value="">Почта России</option><option value="">ЕМС</option><option  value="">CDEC</option><option value="">Самовывоз</option></select></p>
+                
+            <h3 class="item_head">Подробное описание товара</h3>
+            <p class="detailed_description">Шкатулка для обручальных колец ручной работы.</p>
+
+            
+        </div>
+        <hr/>
         
-    </div>
-    <hr/>
-    
-    <div class="footer">
-        <p> &copy; 2018 Все права защищены</p>
-    </div>  
+        <div class="footer">
+            <p> &copy; 2018 Все права защищены</p>
+        </div> 
+    </div>      
 </body>
 </html>
